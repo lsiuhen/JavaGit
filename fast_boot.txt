@@ -1,0 +1,953 @@
+Last login: Tue Jun 27 17:01:58 on ttys000
+shen:~ shen$ ifconfig
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000
+	inet6 ::1 prefixlen 128
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+en0: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	ether f4:5c:89:af:0c:a3
+	inet6 fe80::1cfb:5536:abbf:cde1%en0 prefixlen 64 secured scopeid 0x4
+	inet 169.254.57.226 netmask 0xffff0000 broadcast 169.254.255.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+en1: flags=963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX> mtu 1500
+	options=60<TSO4,TSO6>
+	ether 6a:00:01:c9:02:a0
+	media: autoselect <full-duplex>
+	status: inactive
+en2: flags=963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX> mtu 1500
+	options=60<TSO4,TSO6>
+	ether 6a:00:01:c9:02:a1
+	media: autoselect <full-duplex>
+	status: inactive
+p2p0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 2304
+	ether 06:5c:89:af:0c:a3
+	media: autoselect
+	status: inactive
+awdl0: flags=8902<BROADCAST,PROMISC,SIMPLEX,MULTICAST> mtu 1484
+	ether c2:97:2e:70:e0:e4
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: inactive
+bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+	ether 6a:00:01:c9:02:a0
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x2
+	member: en1 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 5 priority 0 path cost 0
+	member: en2 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 6 priority 0 path cost 0
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type>
+	status: inactive
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::2a93:535c:3d19:416f%utun0 prefixlen 64 scopeid 0xb
+	nd6 options=201<PERFORMNUD,DAD>
+en4: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=10b<RXCSUM,TXCSUM,VLAN_HWTAGGING,AV>
+	ether 38:c9:86:47:50:32
+	inet6 fe80::467:4ecb:72b1:9978%en4 prefixlen 64 secured scopeid 0x7
+	inet 192.168.1.106 netmask 0xffffff00 broadcast 192.168.1.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect (100baseTX <full-duplex,flow-control,energy-efficient-ethernet>)
+	status: active
+bridge100: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=3<RXCSUM,TXCSUM>
+	ether f6:5c:89:fa:63:64
+	inet 192.168.2.1 netmask 0xffffff00 broadcast 192.168.2.255
+	inet6 fe80::f45c:89ff:fefa:6364%bridge100 prefixlen 64 scopeid 0xc
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x2
+	member: en0 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 4 priority 0 path cost 0
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+shen:~ shen$ adb uninstall com.nepo.kaka
+Success
+shen:~ shen$ adb install /Users/shen/Desktop/app-debug.apk
+Failed to install /Users/shen/Desktop/app-debug.apk: shen:~ shen$ adb uninstall com.nepo.kaka
+Success
+shen:~ shen$ cd
+shen:~ shen$ ls
+360云盘			Movies			eclipse-sdk
+AndroidCar		Music			gitRepository
+AndroidStudioProjects	NetBeansProjects	https:
+Applications		PhpstormProjects	logs_html
+Desktop			Pictures		macEclipse
+Documents		Public			testmacgit
+Downloads		Pythons			workspace
+HBuilder		android_ndk		zhaofang
+HBuilderProjects	chrome			九品项目
+Library			eclipse
+shen:~ shen$ cd
+shen:~ shen$ ls
+360云盘			Movies			eclipse-sdk
+AndroidCar		Music			gitRepository
+AndroidStudioProjects	NetBeansProjects	https:
+Applications		PhpstormProjects	logs_html
+Desktop			Pictures		macEclipse
+Documents		Public			testmacgit
+Downloads		Pythons			workspace
+HBuilder		android_ndk		zhaofang
+HBuilderProjects	chrome			九品项目
+Library			eclipse
+shen:~ shen$ cd Documents/
+shen:Documents shen$ ls
+123.mp4
+20170520-立挣
+20170520-立挣.rar
+AS忽略文件列表.md
+AndroidDaemonService-master
+AndroidDaemonService-master.zip
+AndroidViewAnimations-master
+AndroidViewAnimations-master.zip
+Android_PaiShe_ShiPin
+Android开发资料
+Android基础技术堆栈.pdf
+Aria-master
+AutoCompleteSearch-master
+CustomStatusBar-master
+Demo_ChooseImg-master.zip
+DesignPattern-master.zip
+EazeGraph-master
+FeverCat
+GAMAPAY_商家介接文件1.7.3.pdf
+Gen_Signature_Android2.apk
+HBuilder settings
+HiPermission-master
+Jgraph-master
+MarkDown示例.md
+PhotoMedia-master-master.zip
+RxPermissions-master
+ShoppingCart
+ShoppingCart.zip
+Smallpos
+Smallpos.zip
+SnapHelperDemo-master.zip
+TencentFile
+WXWorkspace
+WeChatShareDemo
+android-permission-checker-app-master
+android-permission-checker-app-master.zip
+banner-master
+bd38fa08c7f9585e0e7f315c55da29ce
+board-sitemap-1.xml.gz
+master.zip
+material-drawer-master
+modiao
+modiao.zip
+shamu-n6f27e
+shamu-n6f27e-factory-74a9a99e.zip
+workspace
+zzb
+富途控车
+关于我们.docx
+阿里巴巴Java开发手册.pdf
+产品技术服务声明.docx
+体温计上位机通信协议2017-03-30.pdf
+shen:Documents shen$ cd shamu-n6f27e
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img
+flash-all.bat
+flash-all.sh
+flash-base.sh
+image-shamu-n6f27e.zip
+radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ ls -lash
+total 2010824
+      0 drwxr-x---@  8 shen  staff   272B  5 24 14:40 .
+      0 drwx------+ 56 shen  staff   1.9K  6 27 18:31 ..
+   8144 -rw-r-----@  1 shen  staff   4.0M  5 24 14:40 bootloader-shamu-moto-apq8084-72.03.img
+      8 -rw-r-----@  1 shen  staff   985B  5 24 14:40 flash-all.bat
+      8 -rwxr-x--x@  1 shen  staff   856B  5 24 14:40 flash-all.sh
+      8 -rwxr-x--x@  1 shen  staff   814B  5 24 14:40 flash-base.sh
+1771640 -rw-r-----@  1 shen  staff   865M  5 24 14:40 image-shamu-n6f27e.zip
+ 231016 -rw-r-----@  1 shen  staff   113M  5 24 14:40 radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ fastboot -devices
+fastboot: invalid option -- d
+shen:shamu-n6f27e shen$ fastboot devices list
+shen:shamu-n6f27e shen$ ./flash-all.sh
+< waiting for any device >
+^C
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img
+flash-all.bat
+flash-all.sh
+flash-base.sh
+image-shamu-n6f27e.zip
+radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ adb shell reboot
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img
+flash-all.bat
+flash-all.sh
+flash-base.sh
+image-shamu-n6f27e.zip
+radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ adb reboot bootloader
+shen:shamu-n6f27e shen$ fastboot device list
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+usage: fastboot [ <option> ] <command>
+
+commands:
+  update <filename>                        Reflash device from update.zip.
+                                           Sets the flashed slot as active.
+  flashall                                 Flash boot, system, vendor, and --
+                                           if found -- recovery. If the device
+                                           supports slots, the slot that has
+                                           been flashed to is set as active.
+                                           Secondary images may be flashed to
+                                           an inactive slot.
+  flash <partition> [ <filename> ]         Write a file to a flash partition.
+  flashing lock                            Locks the device. Prevents flashing.
+  flashing unlock                          Unlocks the device. Allows flashing
+                                           any partition except
+                                           bootloader-related partitions.
+  flashing lock_critical                   Prevents flashing bootloader-related
+                                           partitions.
+  flashing unlock_critical                 Enables flashing bootloader-related
+                                           partitions.
+  flashing get_unlock_ability              Queries bootloader to see if the
+                                           device is unlocked.
+  flashing get_unlock_bootloader_nonce     Queries the bootloader to get the
+                                           unlock nonce.
+  flashing unlock_bootloader <request>     Issue unlock bootloader using request.
+  flashing lock_bootloader                 Locks the bootloader to prevent
+                                           bootloader version rollback.
+  erase <partition>                        Erase a flash partition.
+  format[:[<fs type>][:[<size>]] <partition>
+                                           Format a flash partition. Can
+                                           override the fs type and/or size
+                                           the bootloader reports.
+  getvar <variable>                        Display a bootloader variable.
+  set_active <slot>                        Sets the active slot. If slots are
+                                           not supported, this does nothing.
+  boot <kernel> [ <ramdisk> [ <second> ] ] Download and boot kernel.
+  flash:raw boot <kernel> [ <ramdisk> [ <second> ] ]
+                                           Create bootimage and flash it.
+  devices [-l]                             List all connected devices [with
+                                           device paths].
+  continue                                 Continue with autoboot.
+  reboot [bootloader|emergency]            Reboot device [into bootloader or emergency mode].
+  reboot-bootloader                        Reboot device into bootloader.
+  help                                     Show this help message.
+
+options:
+  -w                                       Erase userdata and cache (and format
+                                           if supported by partition type).
+  -u                                       Do not erase partition before
+                                           formatting.
+  -s <specific device>                     Specify a device. For USB, provide either
+                                           a serial number or path to device port.
+                                           For ethernet, provide an address in the
+                                           form <protocol>:<hostname>[:port] where
+                                           <protocol> is either tcp or udp.
+  -p <product>                             Specify product name.
+  -c <cmdline>                             Override kernel commandline.
+  -i <vendor id>                           Specify a custom USB vendor id.
+  -b, --base <base_addr>                   Specify a custom kernel base
+                                           address (default: 0x10000000).
+  --kernel-offset                          Specify a custom kernel offset.
+                                           (default: 0x00008000)
+  --ramdisk-offset                         Specify a custom ramdisk offset.
+                                           (default: 0x01000000)
+  --tags-offset                            Specify a custom tags offset.
+                                           (default: 0x00000100)
+  -n, --page-size <page size>              Specify the nand page size
+                                           (default: 2048).
+  -S <size>[K|M|G]                         Automatically sparse files greater
+                                           than 'size'. 0 to disable.
+  --slot <slot>                            Specify slot name to be used if the
+                                           device supports slots. All operations
+                                           on partitions that support slots will
+                                           be done on the slot specified.
+                                           'all' can be given to refer to all slots.
+                                           'other' can be given to refer to a
+                                           non-current slot. If this flag is not
+                                           used, slotted partitions will default
+                                           to the current active slot.
+  -a, --set-active[=<slot>]                Sets the active slot. If no slot is
+                                           provided, this will default to the value
+                                           given by --slot. If slots are not
+                                           supported, this does nothing. This will
+                                           run after all non-reboot commands.
+  --skip-secondary                         Will not flash secondary slots when
+                                           performing a flashall or update. This
+                                           will preserve data on other slots.
+  --skip-reboot                            Will not reboot the device when
+                                           performing commands that normally
+                                           trigger a reboot.
+  --wipe-and-use-fbe                       On devices which support it,
+                                           erase userdata and cache, and
+                                           enable file-based encryption
+  --unbuffered                             Do not buffer input or output.
+  --version                                Display version.
+  -h, --help                               show this message.
+shen:shamu-n6f27e shen$ fastboot -l
+usage: fastboot [ <option> ] <command>
+
+commands:
+  update <filename>                        Reflash device from update.zip.
+                                           Sets the flashed slot as active.
+  flashall                                 Flash boot, system, vendor, and --
+                                           if found -- recovery. If the device
+                                           supports slots, the slot that has
+                                           been flashed to is set as active.
+                                           Secondary images may be flashed to
+                                           an inactive slot.
+  flash <partition> [ <filename> ]         Write a file to a flash partition.
+  flashing lock                            Locks the device. Prevents flashing.
+  flashing unlock                          Unlocks the device. Allows flashing
+                                           any partition except
+                                           bootloader-related partitions.
+  flashing lock_critical                   Prevents flashing bootloader-related
+                                           partitions.
+  flashing unlock_critical                 Enables flashing bootloader-related
+                                           partitions.
+  flashing get_unlock_ability              Queries bootloader to see if the
+                                           device is unlocked.
+  flashing get_unlock_bootloader_nonce     Queries the bootloader to get the
+                                           unlock nonce.
+  flashing unlock_bootloader <request>     Issue unlock bootloader using request.
+  flashing lock_bootloader                 Locks the bootloader to prevent
+                                           bootloader version rollback.
+  erase <partition>                        Erase a flash partition.
+  format[:[<fs type>][:[<size>]] <partition>
+                                           Format a flash partition. Can
+                                           override the fs type and/or size
+                                           the bootloader reports.
+  getvar <variable>                        Display a bootloader variable.
+  set_active <slot>                        Sets the active slot. If slots are
+                                           not supported, this does nothing.
+  boot <kernel> [ <ramdisk> [ <second> ] ] Download and boot kernel.
+  flash:raw boot <kernel> [ <ramdisk> [ <second> ] ]
+                                           Create bootimage and flash it.
+  devices [-l]                             List all connected devices [with
+                                           device paths].
+  continue                                 Continue with autoboot.
+  reboot [bootloader|emergency]            Reboot device [into bootloader or emergency mode].
+  reboot-bootloader                        Reboot device into bootloader.
+  help                                     Show this help message.
+
+options:
+  -w                                       Erase userdata and cache (and format
+                                           if supported by partition type).
+  -u                                       Do not erase partition before
+                                           formatting.
+  -s <specific device>                     Specify a device. For USB, provide either
+                                           a serial number or path to device port.
+                                           For ethernet, provide an address in the
+                                           form <protocol>:<hostname>[:port] where
+                                           <protocol> is either tcp or udp.
+  -p <product>                             Specify product name.
+  -c <cmdline>                             Override kernel commandline.
+  -i <vendor id>                           Specify a custom USB vendor id.
+  -b, --base <base_addr>                   Specify a custom kernel base
+                                           address (default: 0x10000000).
+  --kernel-offset                          Specify a custom kernel offset.
+                                           (default: 0x00008000)
+  --ramdisk-offset                         Specify a custom ramdisk offset.
+                                           (default: 0x01000000)
+  --tags-offset                            Specify a custom tags offset.
+                                           (default: 0x00000100)
+  -n, --page-size <page size>              Specify the nand page size
+                                           (default: 2048).
+  -S <size>[K|M|G]                         Automatically sparse files greater
+                                           than 'size'. 0 to disable.
+  --slot <slot>                            Specify slot name to be used if the
+                                           device supports slots. All operations
+                                           on partitions that support slots will
+                                           be done on the slot specified.
+                                           'all' can be given to refer to all slots.
+                                           'other' can be given to refer to a
+                                           non-current slot. If this flag is not
+                                           used, slotted partitions will default
+                                           to the current active slot.
+  -a, --set-active[=<slot>]                Sets the active slot. If no slot is
+                                           provided, this will default to the value
+                                           given by --slot. If slots are not
+                                           supported, this does nothing. This will
+                                           run after all non-reboot commands.
+  --skip-secondary                         Will not flash secondary slots when
+                                           performing a flashall or update. This
+                                           will preserve data on other slots.
+  --skip-reboot                            Will not reboot the device when
+                                           performing commands that normally
+                                           trigger a reboot.
+  --wipe-and-use-fbe                       On devices which support it,
+                                           erase userdata and cache, and
+                                           enable file-based encryption
+  --unbuffered                             Do not buffer input or output.
+  --version                                Display version.
+  -h, --help                               show this message.
+shen:shamu-n6f27e shen$ fastboot device
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+usage: fastboot [ <option> ] <command>
+
+commands:
+  update <filename>                        Reflash device from update.zip.
+                                           Sets the flashed slot as active.
+  flashall                                 Flash boot, system, vendor, and --
+                                           if found -- recovery. If the device
+                                           supports slots, the slot that has
+                                           been flashed to is set as active.
+                                           Secondary images may be flashed to
+                                           an inactive slot.
+  flash <partition> [ <filename> ]         Write a file to a flash partition.
+  flashing lock                            Locks the device. Prevents flashing.
+  flashing unlock                          Unlocks the device. Allows flashing
+                                           any partition except
+                                           bootloader-related partitions.
+  flashing lock_critical                   Prevents flashing bootloader-related
+                                           partitions.
+  flashing unlock_critical                 Enables flashing bootloader-related
+                                           partitions.
+  flashing get_unlock_ability              Queries bootloader to see if the
+                                           device is unlocked.
+  flashing get_unlock_bootloader_nonce     Queries the bootloader to get the
+                                           unlock nonce.
+  flashing unlock_bootloader <request>     Issue unlock bootloader using request.
+  flashing lock_bootloader                 Locks the bootloader to prevent
+                                           bootloader version rollback.
+  erase <partition>                        Erase a flash partition.
+  format[:[<fs type>][:[<size>]] <partition>
+                                           Format a flash partition. Can
+                                           override the fs type and/or size
+                                           the bootloader reports.
+  getvar <variable>                        Display a bootloader variable.
+  set_active <slot>                        Sets the active slot. If slots are
+                                           not supported, this does nothing.
+  boot <kernel> [ <ramdisk> [ <second> ] ] Download and boot kernel.
+  flash:raw boot <kernel> [ <ramdisk> [ <second> ] ]
+                                           Create bootimage and flash it.
+  devices [-l]                             List all connected devices [with
+                                           device paths].
+  continue                                 Continue with autoboot.
+  reboot [bootloader|emergency]            Reboot device [into bootloader or emergency mode].
+  reboot-bootloader                        Reboot device into bootloader.
+  help                                     Show this help message.
+
+options:
+  -w                                       Erase userdata and cache (and format
+                                           if supported by partition type).
+  -u                                       Do not erase partition before
+                                           formatting.
+  -s <specific device>                     Specify a device. For USB, provide either
+                                           a serial number or path to device port.
+                                           For ethernet, provide an address in the
+                                           form <protocol>:<hostname>[:port] where
+                                           <protocol> is either tcp or udp.
+  -p <product>                             Specify product name.
+  -c <cmdline>                             Override kernel commandline.
+  -i <vendor id>                           Specify a custom USB vendor id.
+  -b, --base <base_addr>                   Specify a custom kernel base
+                                           address (default: 0x10000000).
+  --kernel-offset                          Specify a custom kernel offset.
+                                           (default: 0x00008000)
+  --ramdisk-offset                         Specify a custom ramdisk offset.
+                                           (default: 0x01000000)
+  --tags-offset                            Specify a custom tags offset.
+                                           (default: 0x00000100)
+  -n, --page-size <page size>              Specify the nand page size
+                                           (default: 2048).
+  -S <size>[K|M|G]                         Automatically sparse files greater
+                                           than 'size'. 0 to disable.
+  --slot <slot>                            Specify slot name to be used if the
+                                           device supports slots. All operations
+                                           on partitions that support slots will
+                                           be done on the slot specified.
+                                           'all' can be given to refer to all slots.
+                                           'other' can be given to refer to a
+                                           non-current slot. If this flag is not
+                                           used, slotted partitions will default
+                                           to the current active slot.
+  -a, --set-active[=<slot>]                Sets the active slot. If no slot is
+                                           provided, this will default to the value
+                                           given by --slot. If slots are not
+                                           supported, this does nothing. This will
+                                           run after all non-reboot commands.
+  --skip-secondary                         Will not flash secondary slots when
+                                           performing a flashall or update. This
+                                           will preserve data on other slots.
+  --skip-reboot                            Will not reboot the device when
+                                           performing commands that normally
+                                           trigger a reboot.
+  --wipe-and-use-fbe                       On devices which support it,
+                                           erase userdata and cache, and
+                                           enable file-based encryption
+  --unbuffered                             Do not buffer input or output.
+  --version                                Display version.
+  -h, --help                               show this message.
+shen:shamu-n6f27e shen$ fastboot devices
+ZX1G22VGWL	fastboot
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img			flash-base.sh
+flash-all.bat						image-shamu-n6f27e.zip
+flash-all.sh						radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img			flash-base.sh
+flash-all.bat						image-shamu-n6f27e.zip
+flash-all.sh						radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ ./flash-all.sh
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+(bootloader) has-slot:bootloader: not found
+target reported max download size of 536870912 bytes
+sending 'bootloader' (4071 KB)...
+OKAY [  0.130s]
+writing 'bootloader'...
+(bootloader) Not allowed in LOCKED state!
+FAILED (remote failure)
+finished. total time: 0.137s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+rebooting into bootloader...
+OKAY [  0.002s]
+finished. total time: 0.002s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+(bootloader) has-slot:radio: not found
+target reported max download size of 536870912 bytes
+sending 'radio' (115507 KB)...
+OKAY [  3.635s]
+writing 'radio'...
+(bootloader) Not allowed in LOCKED state!
+FAILED (remote failure)
+finished. total time: 3.642s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+rebooting into bootloader...
+OKAY [  0.002s]
+finished. total time: 0.002s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+(bootloader) current-slot: not found
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+target reported max download size of 536870912 bytes
+(bootloader) has-slot:boot: not found
+archive does not contain 'boot.sig'
+(bootloader) has-slot:recovery: not found
+archive does not contain 'recovery.sig'
+(bootloader) has-slot:system: not found
+archive does not contain 'system.sig'
+archive does not contain 'vendor.img'
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+wiping userdata...
+Creating filesystem with parameters:
+    Size: 28474998784
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8160
+    Inode size: 256
+    Journal blocks: 32768
+    Label:
+    Blocks: 6951904
+    Block groups: 213
+    Reserved block group size: 1024
+Created filesystem with 11/1738080 inodes and 153124/6951904 blocks
+wiping cache...
+Creating filesystem with parameters:
+    Size: 268435456
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 1024
+    Label:
+    Blocks: 65536
+    Block groups: 2
+    Reserved block group size: 15
+Created filesystem with 11/16384 inodes and 2089/65536 blocks
+--------------------------------------------
+Bootloader Version...: moto-apq8084-72.01
+Baseband Version.....: D4.01-9625-05.42+FSG-9625-02.113
+Serial Number........: ZX1G22VGWL
+--------------------------------------------
+checking product...
+OKAY [  0.002s]
+checking version-bootloader...
+FAILED
+
+Device version-bootloader is 'moto-apq8084-72.01'.
+Update requires 'moto-apq8084-72.03'.
+
+finished. total time: 0.012s
+shen:shamu-n6f27e shen$ fastboot reboot
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+rebooting...
+
+finished. total time: 0.002s
+shen:shamu-n6f27e shen$ reboot
+reboot: Operation not permitted
+shen:shamu-n6f27e shen$ adb reboot
+error: no devices/emulators found
+shen:shamu-n6f27e shen$ fastboot
+usage: fastboot [ <option> ] <command>
+
+commands:
+  update <filename>                        Reflash device from update.zip.
+                                           Sets the flashed slot as active.
+  flashall                                 Flash boot, system, vendor, and --
+                                           if found -- recovery. If the device
+                                           supports slots, the slot that has
+                                           been flashed to is set as active.
+                                           Secondary images may be flashed to
+                                           an inactive slot.
+  flash <partition> [ <filename> ]         Write a file to a flash partition.
+  flashing lock                            Locks the device. Prevents flashing.
+  flashing unlock                          Unlocks the device. Allows flashing
+                                           any partition except
+                                           bootloader-related partitions.
+  flashing lock_critical                   Prevents flashing bootloader-related
+                                           partitions.
+  flashing unlock_critical                 Enables flashing bootloader-related
+                                           partitions.
+  flashing get_unlock_ability              Queries bootloader to see if the
+                                           device is unlocked.
+  flashing get_unlock_bootloader_nonce     Queries the bootloader to get the
+                                           unlock nonce.
+  flashing unlock_bootloader <request>     Issue unlock bootloader using request.
+  flashing lock_bootloader                 Locks the bootloader to prevent
+                                           bootloader version rollback.
+  erase <partition>                        Erase a flash partition.
+  format[:[<fs type>][:[<size>]] <partition>
+                                           Format a flash partition. Can
+                                           override the fs type and/or size
+                                           the bootloader reports.
+  getvar <variable>                        Display a bootloader variable.
+  set_active <slot>                        Sets the active slot. If slots are
+                                           not supported, this does nothing.
+  boot <kernel> [ <ramdisk> [ <second> ] ] Download and boot kernel.
+  flash:raw boot <kernel> [ <ramdisk> [ <second> ] ]
+                                           Create bootimage and flash it.
+  devices [-l]                             List all connected devices [with
+                                           device paths].
+  continue                                 Continue with autoboot.
+  reboot [bootloader|emergency]            Reboot device [into bootloader or emergency mode].
+  reboot-bootloader                        Reboot device into bootloader.
+  help                                     Show this help message.
+
+options:
+  -w                                       Erase userdata and cache (and format
+                                           if supported by partition type).
+  -u                                       Do not erase partition before
+                                           formatting.
+  -s <specific device>                     Specify a device. For USB, provide either
+                                           a serial number or path to device port.
+                                           For ethernet, provide an address in the
+                                           form <protocol>:<hostname>[:port] where
+                                           <protocol> is either tcp or udp.
+  -p <product>                             Specify product name.
+  -c <cmdline>                             Override kernel commandline.
+  -i <vendor id>                           Specify a custom USB vendor id.
+  -b, --base <base_addr>                   Specify a custom kernel base
+                                           address (default: 0x10000000).
+  --kernel-offset                          Specify a custom kernel offset.
+                                           (default: 0x00008000)
+  --ramdisk-offset                         Specify a custom ramdisk offset.
+                                           (default: 0x01000000)
+  --tags-offset                            Specify a custom tags offset.
+                                           (default: 0x00000100)
+  -n, --page-size <page size>              Specify the nand page size
+                                           (default: 2048).
+  -S <size>[K|M|G]                         Automatically sparse files greater
+                                           than 'size'. 0 to disable.
+  --slot <slot>                            Specify slot name to be used if the
+                                           device supports slots. All operations
+                                           on partitions that support slots will
+                                           be done on the slot specified.
+                                           'all' can be given to refer to all slots.
+                                           'other' can be given to refer to a
+                                           non-current slot. If this flag is not
+                                           used, slotted partitions will default
+                                           to the current active slot.
+  -a, --set-active[=<slot>]                Sets the active slot. If no slot is
+                                           provided, this will default to the value
+                                           given by --slot. If slots are not
+                                           supported, this does nothing. This will
+                                           run after all non-reboot commands.
+  --skip-secondary                         Will not flash secondary slots when
+                                           performing a flashall or update. This
+                                           will preserve data on other slots.
+  --skip-reboot                            Will not reboot the device when
+                                           performing commands that normally
+                                           trigger a reboot.
+  --wipe-and-use-fbe                       On devices which support it,
+                                           erase userdata and cache, and
+                                           enable file-based encryption
+  --unbuffered                             Do not buffer input or output.
+  --version                                Display version.
+  -h, --help                               show this message.
+shen:shamu-n6f27e shen$ fastboot reboot
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+rebooting...
+
+finished. total time: 0.002s
+shen:shamu-n6f27e shen$ fastboot flashing unlock
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+...
+OKAY [  0.002s]
+finished. total time: 0.002s
+shen:shamu-n6f27e shen$ ./flash-all.sh
+^C
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img			flash-base.sh
+flash-all.bat						image-shamu-n6f27e.zip
+flash-all.sh						radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ fastboot reboot bootloader
+^C
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$
+shen:shamu-n6f27e shen$ adb reboot bootloader
+shen:shamu-n6f27e shen$ fastboot flashing unlock
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+...
+OKAY [  0.002s]
+finished. total time: 0.002s
+shen:shamu-n6f27e shen$ ./flash-all.sh
+^C
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img			flash-base.sh
+flash-all.bat						image-shamu-n6f27e.zip
+flash-all.sh						radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ ls -lash
+total 2010824
+      0 drwxr-x---@  8 shen  staff   272B  5 24 14:40 .
+      0 drwx------+ 56 shen  staff   1.9K  6 27 18:31 ..
+   8144 -rw-r-----@  1 shen  staff   4.0M  5 24 14:40 bootloader-shamu-moto-apq8084-72.03.img
+      8 -rw-r-----@  1 shen  staff   985B  5 24 14:40 flash-all.bat
+      8 -rwxr-x--x@  1 shen  staff   856B  5 24 14:40 flash-all.sh
+      8 -rwxr-x--x@  1 shen  staff   814B  5 24 14:40 flash-base.sh
+1771640 -rw-r-----@  1 shen  staff   865M  5 24 14:40 image-shamu-n6f27e.zip
+ 231016 -rw-r-----@  1 shen  staff   113M  5 24 14:40 radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ ./flash-base.sh
+^C
+shen:shamu-n6f27e shen$ ./flash-all.sh
+^C^C
+shen:shamu-n6f27e shen$ fastboot oem unlock
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+...
+(bootloader) Device state transition will erase userdata.
+(bootloader) Are you sure you want to continue this transition?
+(bootloader)
+(bootloader) Press POWER key to continue.
+(bootloader) Press VOL UP or VOL DOWN key to cancel state transition.
+(bootloader) State transition canceled!
+OKAY [ 10.953s]
+finished. total time: 10.953s
+shen:shamu-n6f27e shen$ fastboot oem unlock
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+...
+(bootloader) Device state transition will erase userdata.
+(bootloader) Are you sure you want to continue this transition?
+(bootloader)
+(bootloader) Press POWER key to continue.
+(bootloader) Press VOL UP or VOL DOWN key to cancel state transition.
+(bootloader) State transition confirmed!
+(bootloader) Please select 'YES' on screen if you want to continue...
+(bootloader) Unlocking bootloader...
+
+(bootloader) Phone is unlocked successfully!
+OKAY [ 21.263s]
+finished. total time: 21.263s
+shen:shamu-n6f27e shen$ ls
+bootloader-shamu-moto-apq8084-72.03.img			flash-base.sh
+flash-all.bat						image-shamu-n6f27e.zip
+flash-all.sh						radio-shamu-d4.01-9625-05.45+fsg-9625-02.117.img
+shen:shamu-n6f27e shen$ ./flash-all.sh
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+(bootloader) has-slot:bootloader: not found
+target reported max download size of 536870912 bytes
+sending 'bootloader' (4071 KB)...
+OKAY [  0.130s]
+writing 'bootloader'...
+(bootloader) flashing partition ...
+(bootloader) This may take a few seconds if a
+(bootloader) different partition table is being
+(bootloader) flashed since we need to backup
+(bootloader) and restore a few partitions
+(bootloader) Flashing primary GPT image...
+(bootloader) Flashing backup GPT image...
+(bootloader) flashing aboot ...
+(bootloader) flashing sbl1 ...
+(bootloader) flashing rpm ...
+(bootloader) flashing tz ...
+(bootloader) flashing sdi ...
+(bootloader) flashing logo ...
+OKAY [  0.659s]
+finished. total time: 0.789s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+rebooting into bootloader...
+OKAY [  0.002s]
+finished. total time: 0.002s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+(bootloader) has-slot:radio: not found
+target reported max download size of 536870912 bytes
+sending 'radio' (115507 KB)...
+OKAY [  3.746s]
+writing 'radio'...
+(bootloader) flashing modem ...
+(bootloader) flashing mdm1m9kefs1 ...
+(bootloader) flashing mdm1m9kefs2 ...
+(bootloader) flashing mdm1m9kefs3 ...
+(bootloader) flashing versions ...
+OKAY [  1.566s]
+finished. total time: 5.312s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+rebooting into bootloader...
+OKAY [  0.002s]
+finished. total time: 0.002s
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+(bootloader) current-slot: not found
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+target reported max download size of 536870912 bytes
+(bootloader) has-slot:boot: not found
+archive does not contain 'boot.sig'
+(bootloader) has-slot:recovery: not found
+archive does not contain 'recovery.sig'
+(bootloader) has-slot:system: not found
+archive does not contain 'system.sig'
+archive does not contain 'vendor.img'
+(bootloader) slot-count: not found
+(bootloader) slot-suffixes: not found
+(bootloader) slot-suffixes: not found
+wiping userdata...
+Creating filesystem with parameters:
+    Size: 28474998784
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8160
+    Inode size: 256
+    Journal blocks: 32768
+    Label:
+    Blocks: 6951904
+    Block groups: 213
+    Reserved block group size: 1024
+Created filesystem with 11/1738080 inodes and 153124/6951904 blocks
+wiping cache...
+Creating filesystem with parameters:
+    Size: 268435456
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 1024
+    Label:
+    Blocks: 65536
+    Block groups: 2
+    Reserved block group size: 15
+Created filesystem with 11/16384 inodes and 2089/65536 blocks
+--------------------------------------------
+Bootloader Version...: moto-apq8084-72.03
+Baseband Version.....: D4.01-9625-05.45+FSG-9625-02.117
+Serial Number........: ZX1G22VGWL
+--------------------------------------------
+checking product...
+OKAY [  0.002s]
+checking version-bootloader...
+OKAY [  0.002s]
+checking version-baseband...
+OKAY [  0.004s]
+sending 'boot' (8503 KB)...
+OKAY [  0.269s]
+writing 'boot'...
+OKAY [  0.151s]
+sending 'recovery' (13893 KB)...
+OKAY [  0.455s]
+writing 'recovery'...
+OKAY [  0.205s]
+sending sparse 'system' 1/4 (522512 KB)...
+OKAY [ 18.136s]
+writing 'system' 1/4...
+OKAY [  7.704s]
+sending sparse 'system' 2/4 (517601 KB)...
+OKAY [ 17.625s]
+writing 'system' 2/4...
+OKAY [  6.918s]
+sending sparse 'system' 3/4 (508949 KB)...
+OKAY [ 17.609s]
+writing 'system' 3/4...
+OKAY [  6.957s]
+sending sparse 'system' 4/4 (32756 KB)...
+OKAY [  1.136s]
+writing 'system' 4/4...
+OKAY [  0.398s]
+erasing 'userdata'...
+OKAY [  0.816s]
+sending 'userdata' (139061 KB)...
+OKAY [  4.436s]
+writing 'userdata'...
+OKAY [  2.633s]
+erasing 'cache'...
+OKAY [  0.048s]
+sending 'cache' (6248 KB)...
+OKAY [  0.198s]
+writing 'cache'...
+OKAY [  0.115s]
+rebooting...
+
+finished. total time: 85.827s
+shen:shamu-n6f27e shen$
